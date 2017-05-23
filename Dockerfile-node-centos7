@@ -1,0 +1,13 @@
+FROM centos:centos7
+
+RUN yum update
+RUN yum install -y sudo vim git curl 
+RUN yum install -y epel-release 
+RUN yum install -y nodejs npm 
+
+RUN node -v
+RUN npm -v
+RUN npm install -g n
+
+CMD [ "node" ]
+

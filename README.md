@@ -22,7 +22,13 @@ use the n command in your own derived dockerfile to setup the required version o
     ...
     RUN n {node-version}
 
+### sample derived dockerfile on github
+
+https://github.com/kr-g/angular-bootstrap-quickstart/blob/master/docker/Dockerfile
+
 
 ## image available on docker hub
 
 https://hub.docker.com/r/anothersoftwaredevelopmentblog/docker-node-centos/
+
+

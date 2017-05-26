@@ -23,6 +23,6 @@ use the n command in your own derived dockerfile to setup the required version o
     RUN n {node-version}
 
 
-## image available on docḱer hub
+## image available on docker hub
 
 https://hub.docker.com/r/anothersoftwaredevelopmentblog/docker-node-centos/

@@ -6,7 +6,6 @@ RUN yum install -y epel-release
 RUN yum install -y nodejs npm
 
 RUN npm install -g n
-RUN npm install -g @angular/cli
 
 CMD [ "node" ]
 
